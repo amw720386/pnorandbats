@@ -1927,7 +1927,8 @@
             "Huge Power"
         ],
         "items": [
-            "Choice Band"
+            "Choice Band",
+            "Sitrus Berry"
         ],
         "roles": {
             "Bulky Attacker": {
@@ -4541,6 +4542,53 @@
             }
         }
     },
+    "Dedenne": {
+        "level": 90,
+        "abilities": [
+            "Cheek Pouch"
+        ],
+        "items": [
+            "Sitrus Berry"
+        ],
+        "roles": {
+            "Bulky Support": {
+                "abilities": [
+                    "Cheek Pouch"
+                ],
+                "items": [
+                    "Sitrus Berry"
+                ],
+                "moves": [
+                    "Protect",
+                    "Recycle",
+                    "Thunderbolt",
+                    "Toxic"
+                ],
+                "evs": {
+                    "atk": 0
+                },
+                "ivs": {
+                    "atk": 0
+                }
+            },
+            "Staller": {
+                "abilities": [
+                    "Cheek Pouch"
+                ],
+                "items": [
+                    "Sitrus Berry"
+                ],
+                "moves": [
+                    "Recycle",
+                    "Substitute",
+                    "Super Fang",
+                    "Thunderbolt",
+                    "Toxic",
+                    "U-turn"
+                ]
+            }
+        }
+    },
     "Delcatty": {
         "level": 99,
         "abilities": [
@@ -5206,6 +5254,32 @@
             "atk": 0
         }
     },
+    "Dragonite": {
+        "level": 72,
+        "abilities": [
+            "Multiscale"
+        ],
+        "items": [
+            "Lum Berry"
+        ],
+        "roles": {
+            "Setup Sweeper": {
+                "abilities": [
+                    "Multiscale"
+                ],
+                "items": [
+                    "Lum Berry"
+                ],
+                "moves": [
+                    "Dragon Dance",
+                    "Earthquake",
+                    "Iron Head",
+                    "Outrage",
+                    "Roost"
+                ]
+            }
+        }
+    },
     "Drampa": {
         "level": 91,
         "abilities": [
@@ -5331,6 +5405,56 @@
                     "Whirlwind"
                 ]
             }
+        }
+    },
+    "Drifblim": {
+        "level": 85,
+        "abilities": [
+            "Unburden"
+        ],
+        "items": [
+            "Sitrus Berry"
+        ],
+        "roles": {
+            "Bulky Support": {
+                "abilities": [
+                    "Unburden"
+                ],
+                "items": [
+                    "Sitrus Berry"
+                ],
+                "moves": [
+                    "Acrobatics",
+                    "Hex",
+                    "Substitute",
+                    "Will-O-Wisp"
+                ],
+                "evs": {
+                    "hp": 77
+                }
+            },
+            "Fast Support": {
+                "abilities": [
+                    "Unburden"
+                ],
+                "items": [
+                    "Sitrus Berry"
+                ],
+                "moves": [
+                    "Acrobatics",
+                    "Defog",
+                    "Destiny Bond",
+                    "Shadow Ball",
+                    "Substitute",
+                    "Will-O-Wisp"
+                ],
+                "evs": {
+                    "hp": 77
+                }
+            }
+        },
+        "evs": {
+            "hp": 77
         }
     },
     "Druddigon": {
@@ -5997,6 +6121,45 @@
             }
         }
     },
+    "Exeggutor": {
+        "level": 90,
+        "abilities": [
+            "Harvest"
+        ],
+        "items": [
+            "Sitrus Berry"
+        ],
+        "roles": {
+            "Bulky Support": {
+                "abilities": [
+                    "Harvest"
+                ],
+                "items": [
+                    "Sitrus Berry"
+                ],
+                "moves": [
+                    "Giga Drain",
+                    "Hidden Power Fire",
+                    "Leech Seed",
+                    "Psychic",
+                    "Sleep Powder",
+                    "Substitute"
+                ],
+                "evs": {
+                    "atk": 0
+                },
+                "ivs": {
+                    "atk": 0
+                }
+            }
+        },
+        "evs": {
+            "atk": 0
+        },
+        "ivs": {
+            "atk": 0
+        }
+    },
     "Exeggutor-Alola": {
         "level": 91,
         "abilities": [
@@ -6004,9 +6167,28 @@
             "Harvest"
         ],
         "items": [
-            "Choice Specs"
+            "Choice Specs",
+            "Sitrus Berry"
         ],
         "roles": {
+            "Fast Attacker": {
+                "abilities": [
+                    "Harvest"
+                ],
+                "items": [
+                    "Sitrus Berry"
+                ],
+                "moves": [
+                    "Draco Meteor",
+                    "Dragon Tail",
+                    "Flamethrower",
+                    "Knock Off",
+                    "Moonlight",
+                    "Sleep Powder",
+                    "Stun Spore",
+                    "Wood Hammer"
+                ]
+            },
             "Wallbreaker": {
                 "abilities": [
                     "Frisk"
@@ -6409,7 +6591,8 @@
         "items": [
             "Choice Band",
             "Choice Scarf",
-            "Leftovers"
+            "Leftovers",
+            "Lum Berry"
         ],
         "roles": {
             "Fast Attacker": {
@@ -6534,6 +6717,7 @@
             "Fur Coat"
         ],
         "items": [
+            "Chesto Berry",
             "Leftovers"
         ],
         "roles": {
@@ -6551,6 +6735,21 @@
                     "Return",
                     "Substitute",
                     "Toxic"
+                ]
+            },
+            "Bulky Support": {
+                "abilities": [
+                    "Fur Coat"
+                ],
+                "items": [
+                    "Chesto Berry"
+                ],
+                "moves": [
+                    "Rest",
+                    "Return",
+                    "Thunder Wave",
+                    "Toxic",
+                    "U-turn"
                 ]
             }
         }
@@ -6730,6 +6929,7 @@
         ],
         "items": [
             "Assault Vest",
+            "Lum Berry",
             "Rocky Helmet"
         ],
         "roles": {
@@ -6749,6 +6949,21 @@
                     "Stealth Rock",
                     "Stone Edge",
                     "Toxic"
+                ]
+            },
+            "Setup Sweeper": {
+                "abilities": [
+                    "Rough Skin"
+                ],
+                "items": [
+                    "Lum Berry"
+                ],
+                "moves": [
+                    "Earthquake",
+                    "Fire Fang",
+                    "Outrage",
+                    "Stone Edge",
+                    "Swords Dance"
                 ]
             }
         }
@@ -7212,6 +7427,7 @@
             "Pressure"
         ],
         "items": [
+            "Chesto Berry",
             "Leftovers"
         ],
         "roles": {
@@ -7587,6 +7803,7 @@
         ],
         "items": [
             "Choice Band",
+            "Custap Berry",
             "Leftovers",
             "Weakness Policy"
         ],
@@ -7660,7 +7877,8 @@
             "Emergency Exit"
         ],
         "items": [
-            "Choice Band"
+            "Choice Band",
+            "Sitrus Berry"
         ],
         "roles": {
             "Bulky Attacker": {
@@ -8115,9 +8333,39 @@
             "Thick Fat"
         ],
         "items": [
-            "Leftovers"
+            "Aguav Berry",
+            "Figy Berry",
+            "Iapapa Berry",
+            "Leftovers",
+            "Mago Berry",
+            "Wiki Berry"
         ],
         "roles": {
+            "Bulky Setup": {
+                "abilities": [
+                    "Gluttony"
+                ],
+                "items": [
+                    "Aguav Berry",
+                    "Figy Berry",
+                    "Iapapa Berry",
+                    "Mago Berry",
+                    "Wiki Berry"
+                ],
+                "moves": [
+                    "Calm Mind",
+                    "Focus Blast",
+                    "Psychic",
+                    "Psyshock",
+                    "Recycle"
+                ],
+                "evs": {
+                    "atk": 0
+                },
+                "ivs": {
+                    "atk": 0
+                }
+            },
             "Bulky Support": {
                 "abilities": [
                     "Thick Fat"
@@ -8331,7 +8579,8 @@
             "Unburden"
         ],
         "items": [
-            "Power Herb"
+            "Power Herb",
+            "Sitrus Berry"
         ],
         "roles": {
             "Setup Sweeper": {
@@ -8348,6 +8597,32 @@
                     "Sky Attack",
                     "Substitute",
                     "Swords Dance"
+                ]
+            }
+        }
+    },
+    "Haxorus": {
+        "level": 75,
+        "abilities": [
+            "Mold Breaker"
+        ],
+        "items": [
+            "Lum Berry"
+        ],
+        "roles": {
+            "Setup Sweeper": {
+                "abilities": [
+                    "Mold Breaker"
+                ],
+                "items": [
+                    "Lum Berry"
+                ],
+                "moves": [
+                    "Dragon Dance",
+                    "Earthquake",
+                    "Outrage",
+                    "Poison Jab",
+                    "Taunt"
                 ]
             }
         }
@@ -9736,7 +10011,8 @@
             "Swift Swim"
         ],
         "items": [
-            "Life Orb"
+            "Life Orb",
+            "Lum Berry"
         ],
         "roles": {
             "Setup Sweeper": {
@@ -9751,6 +10027,21 @@
                     "Hydro Pump",
                     "Ice Beam",
                     "Rain Dance",
+                    "Waterfall"
+                ]
+            },
+            "Fast Attacker": {
+                "abilities": [
+                    "Sniper",
+                    "Swift Swim"
+                ],
+                "items": [
+                    "Lum Berry"
+                ],
+                "moves": [
+                    "Dragon Dance",
+                    "Iron Head",
+                    "Outrage",
                     "Waterfall"
                 ]
             }
@@ -9886,6 +10177,33 @@
                     "Superpower",
                     "U-turn",
                     "Wood Hammer"
+                ]
+            }
+        }
+    },
+    "Kommo-o": {
+        "level": 74,
+        "abilities": [
+            "Bulletproof",
+            "Soundproof"
+        ],
+        "items": [
+            "Lum Berry"
+        ],
+        "roles": {
+            "Setup Sweeper": {
+                "abilities": [
+                    "Bulletproof",
+                    "Soundproof"
+                ],
+                "items": [
+                    "Lum Berry"
+                ],
+                "moves": [
+                    "Close Combat",
+                    "Dragon Dance",
+                    "Iron Head",
+                    "Outrage"
                 ]
             }
         }
@@ -10799,6 +11117,39 @@
         "ivs": {
             "atk": 0,
             "spe": 30
+        }
+    },
+    "Linoone": {
+        "level": 82,
+        "abilities": [
+            "Gluttony"
+        ],
+        "items": [
+            "Aguav Berry",
+            "Figy Berry",
+            "Iapapa Berry",
+            "Mago Berry",
+            "Wiki Berry"
+        ],
+        "roles": {
+            "Setup Sweeper": {
+                "abilities": [
+                    "Gluttony"
+                ],
+                "items": [
+                    "Aguav Berry",
+                    "Figy Berry",
+                    "Iapapa Berry",
+                    "Mago Berry",
+                    "Wiki Berry"
+                ],
+                "moves": [
+                    "Belly Drum",
+                    "Extreme Speed",
+                    "Stomping Tantrum",
+                    "Throat Chop"
+                ]
+            }
         }
     },
     "Lopunny": {
@@ -13156,9 +13507,32 @@
             "Poison Touch"
         ],
         "items": [
-            "Assault Vest"
+            "Aguav Berry",
+            "Assault Vest",
+            "Figy Berry",
+            "Iapapa Berry",
+            "Mago Berry",
+            "Wiki Berry"
         ],
         "roles": {
+            "Bulky Setup": {
+                "abilities": [
+                    "Gluttony"
+                ],
+                "items": [
+                    "Aguav Berry",
+                    "Figy Berry",
+                    "Iapapa Berry",
+                    "Mago Berry",
+                    "Wiki Berry"
+                ],
+                "moves": [
+                    "Curse",
+                    "Gunk Shot",
+                    "Knock Off",
+                    "Recycle"
+                ]
+            },
             "AV Pivot": {
                 "abilities": [
                     "Poison Touch"
@@ -14639,6 +15013,7 @@
             "Drizzle"
         ],
         "items": [
+            "Chesto Berry",
             "Leftovers"
         ],
         "roles": {
@@ -15476,6 +15851,47 @@
             }
         }
     },
+    "Rayquaza": {
+        "level": 70,
+        "abilities": [
+            "Air Lock"
+        ],
+        "items": [
+            "Lum Berry"
+        ],
+        "roles": {
+            "Setup Sweeper": {
+                "abilities": [
+                    "Air Lock"
+                ],
+                "items": [
+                    "Lum Berry"
+                ],
+                "moves": [
+                    "Dragon Dance",
+                    "Earthquake",
+                    "Extreme Speed",
+                    "Outrage",
+                    "V-create"
+                ]
+            },
+            "Bulky Setup": {
+                "abilities": [
+                    "Air Lock"
+                ],
+                "items": [
+                    "Lum Berry"
+                ],
+                "moves": [
+                    "Earthquake",
+                    "Extreme Speed",
+                    "Outrage",
+                    "Swords Dance",
+                    "V-create"
+                ]
+            }
+        }
+    },
     "Rayquaza-Mega": {
         "level": 66,
         "abilities": [
@@ -15616,6 +16032,7 @@
             "Sturdy"
         ],
         "items": [
+            "Chesto Berry",
             "Leftovers"
         ],
         "roles": {
@@ -15633,6 +16050,20 @@
                     "Stone Edge",
                     "Thunder Wave",
                     "Toxic"
+                ]
+            },
+            "Bulky Setup": {
+                "abilities": [
+                    "Sturdy"
+                ],
+                "items": [
+                    "Chesto Berry"
+                ],
+                "moves": [
+                    "Curse",
+                    "Drain Punch",
+                    "Rest",
+                    "Stone Edge"
                 ]
             }
         }
@@ -16313,6 +16744,33 @@
         },
         "ivs": {
             "atk": 0
+        }
+    },
+    "Salamence": {
+        "level": 73,
+        "abilities": [
+            "Intimidate",
+            "Moxie"
+        ],
+        "items": [
+            "Lum Berry"
+        ],
+        "roles": {
+            "Setup Sweeper": {
+                "abilities": [
+                    "Intimidate",
+                    "Moxie"
+                ],
+                "items": [
+                    "Lum Berry"
+                ],
+                "moves": [
+                    "Dragon Dance",
+                    "Earthquake",
+                    "Outrage",
+                    "Roost"
+                ]
+            }
         }
     },
     "Salamence-Mega": {
@@ -18382,6 +18840,37 @@
             }
         }
     },
+    "Slurpuff": {
+        "level": 79,
+        "abilities": [
+            "Unburden"
+        ],
+        "items": [
+            "Sitrus Berry"
+        ],
+        "roles": {
+            "Setup Sweeper": {
+                "abilities": [
+                    "Unburden"
+                ],
+                "items": [
+                    "Sitrus Berry"
+                ],
+                "moves": [
+                    "Belly Drum",
+                    "Drain Punch",
+                    "Play Rough",
+                    "Return"
+                ],
+                "evs": {
+                    "hp": 81
+                }
+            }
+        },
+        "evs": {
+            "hp": 81
+        }
+    },
     "Smeargle": {
         "level": 88,
         "abilities": [
@@ -18416,7 +18905,12 @@
             "Thick Fat"
         ],
         "items": [
-            "Leftovers"
+            "Aguav Berry",
+            "Figy Berry",
+            "Iapapa Berry",
+            "Leftovers",
+            "Mago Berry",
+            "Wiki Berry"
         ],
         "roles": {
             "Bulky Support": {
@@ -18434,6 +18928,26 @@
                     "Rest",
                     "Return",
                     "Sleep Talk"
+                ]
+            },
+            "Bulky Setup": {
+                "abilities": [
+                    "Gluttony"
+                ],
+                "items": [
+                    "Aguav Berry",
+                    "Figy Berry",
+                    "Iapapa Berry",
+                    "Mago Berry",
+                    "Wiki Berry"
+                ],
+                "moves": [
+                    "Body Slam",
+                    "Crunch",
+                    "Curse",
+                    "Earthquake",
+                    "Recycle",
+                    "Return"
                 ]
             }
         }
@@ -18979,6 +19493,7 @@
             "Pressure"
         ],
         "items": [
+            "Chesto Berry",
             "Leftovers"
         ],
         "roles": {
@@ -20343,7 +20858,8 @@
         ],
         "items": [
             "Choice Band",
-            "Life Orb"
+            "Life Orb",
+            "Sitrus Berry"
         ],
         "roles": {
             "Wallbreaker": {
@@ -20363,7 +20879,60 @@
                     "Trick Room",
                     "Wood Hammer"
                 ]
+            },
+            "Staller": {
+                "abilities": [
+                    "Harvest"
+                ],
+                "items": [
+                    "Sitrus Berry"
+                ],
+                "moves": [
+                    "Earthquake",
+                    "Horn Leech",
+                    "Protect",
+                    "Toxic"
+                ]
             }
+        }
+    },
+    "Tropius": {
+        "level": 93,
+        "abilities": [
+            "Harvest"
+        ],
+        "items": [
+            "Sitrus Berry"
+        ],
+        "roles": {
+            "Staller": {
+                "abilities": [
+                    "Harvest"
+                ],
+                "items": [
+                    "Sitrus Berry"
+                ],
+                "moves": [
+                    "Air Slash",
+                    "Leech Seed",
+                    "Protect",
+                    "Substitute"
+                ],
+                "evs": {
+                    "hp": 73,
+                    "atk": 0
+                },
+                "ivs": {
+                    "atk": 0
+                }
+            }
+        },
+        "evs": {
+            "hp": 73,
+            "atk": 0
+        },
+        "ivs": {
+            "atk": 0
         }
     },
     "Tsareena": {
@@ -20591,7 +21160,8 @@
         ],
         "items": [
             "Choice Band",
-            "Choice Scarf"
+            "Choice Scarf",
+            "Lum Berry"
         ],
         "roles": {
             "Fast Attacker": {
@@ -21878,6 +22448,43 @@
             }
         }
     },
+    "Wobbuffet": {
+        "level": 92,
+        "abilities": [
+            "Shadow Tag"
+        ],
+        "items": [
+            "Custap Berry"
+        ],
+        "roles": {
+            "Bulky Support": {
+                "abilities": [
+                    "Shadow Tag"
+                ],
+                "items": [
+                    "Custap Berry"
+                ],
+                "moves": [
+                    "Counter",
+                    "Destiny Bond",
+                    "Encore",
+                    "Mirror Coat"
+                ],
+                "evs": {
+                    "atk": 0
+                },
+                "ivs": {
+                    "atk": 0
+                }
+            }
+        },
+        "evs": {
+            "atk": 0
+        },
+        "ivs": {
+            "atk": 0
+        }
+    },
     "Wormadam": {
         "level": 100,
         "abilities": [
@@ -22356,7 +22963,8 @@
             "Teravolt"
         ],
         "items": [
-            "Assault Vest"
+            "Assault Vest",
+            "Lum Berry"
         ],
         "roles": {
             "AV Pivot": {
@@ -22371,6 +22979,21 @@
                     "Draco Meteor",
                     "Outrage",
                     "Volt Switch"
+                ]
+            },
+            "Setup Sweeper": {
+                "abilities": [
+                    "Teravolt"
+                ],
+                "items": [
+                    "Lum Berry"
+                ],
+                "moves": [
+                    "Bolt Strike",
+                    "Hone Claws",
+                    "Outrage",
+                    "Roost",
+                    "Substitute"
                 ]
             }
         }
@@ -22453,9 +23076,25 @@
             "Power Construct"
         ],
         "items": [
-            "Leftovers"
+            "Leftovers",
+            "Lum Berry"
         ],
         "roles": {
+            "Setup Sweeper": {
+                "abilities": [
+                    "Power Construct"
+                ],
+                "items": [
+                    "Lum Berry"
+                ],
+                "moves": [
+                    "Dragon Dance",
+                    "Extreme Speed",
+                    "Outrage",
+                    "Substitute",
+                    "Thousand Arrows"
+                ]
+            },
             "Bulky Setup": {
                 "abilities": [
                     "Power Construct"
@@ -22478,7 +23117,8 @@
             "Aura Break"
         ],
         "items": [
-            "Choice Band"
+            "Choice Band",
+            "Lum Berry"
         ],
         "roles": {
             "Bulky Attacker": {
@@ -22489,6 +23129,21 @@
                     "Choice Band"
                 ],
                 "moves": [
+                    "Extreme Speed",
+                    "Iron Tail",
+                    "Outrage",
+                    "Thousand Arrows"
+                ]
+            },
+            "Setup Sweeper": {
+                "abilities": [
+                    "Aura Break"
+                ],
+                "items": [
+                    "Lum Berry"
+                ],
+                "moves": [
+                    "Coil",
                     "Extreme Speed",
                     "Iron Tail",
                     "Outrage",

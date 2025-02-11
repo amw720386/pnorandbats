@@ -4,7 +4,7 @@ Data collected from [Here](https://pkmn.github.io/randbats/data/gen7randombattle
 
 Parsed by myself and will be maintained for future development (introduction of z crystals and berries).
 
-Results on Google Drive [Here](https://docs.google.com/spreadsheets/d/1TKQryXGYmUCBu7oe1p462bV_7JQHk4cn/).
+Results on Google Drive [Here](https://docs.google.com/spreadsheets/d/12NFAFlWJ_75s5CTxbRxmdhndYvBOytFB).
 
 ## Dependencies
 
